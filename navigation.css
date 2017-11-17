@@ -1,0 +1,33 @@
+li {
+    font-family: 'Vollkorn SC', serif;
+    color: rgb(15, 55, 95);
+    font-size: 2em;
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+div {
+    background-color: cornflowerblue;
+    outline: 5px solid darkblue;
+    height: 50%;
+}
+
+.instruction li:nth-child(1) :hover {
+    background-color: rgba(168, 54, 163, 0.836);
+}
+
+.instruction li:nth-child(2) :active {
+    font-size: .5em;
+    color: rgb(190, 35, 190);
+    
+}
+.instruction li:nth-child(3) :active {
+    font-size: 1.25em;
+    color: rgb(172, 37, 172);
+    border: 0 5px;
+}
+
+.instruction li:nth-child(4) :hover  {
+    color: rgb(224, 81, 243);
+}
